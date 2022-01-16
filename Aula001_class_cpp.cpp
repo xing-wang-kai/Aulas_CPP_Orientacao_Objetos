@@ -15,7 +15,7 @@ class Pessoa{
         string profissao;
         double salario;
     public:
-        void Pessoa(string _nome, int _idade, string _cpf, string _profissao, double _salario);
+        Pessoa(string _nome, int _idade, string _cpf, string _profissao, double _salario);
         string getnome();
         int getidade();
         string getcpf();
@@ -58,7 +58,7 @@ class Pessoa{
     double Pessoa::setsalario( double _salario){
         salario = _salario;
     }
-    void Pessoa::Pessoa(string _nome, int _idade, string _cpf, string _profissao, double _salario){
+    Pessoa::Pessoa(string _nome, int _idade, string _cpf, string _profissao, double _salario){
         nome = _nome;
         idade = _idade;
         cpf = _cpf;
