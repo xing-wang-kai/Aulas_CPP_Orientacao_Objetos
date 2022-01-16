@@ -1,0 +1,3 @@
+﻿  teste.cpp
+K:\Programação\C++\aulas_cpp_objeto\Aulas_cpp_c\teste.cpp(58,26): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+  Aulas_cpp_c.vcxproj -> K:\Programação\C++\aulas_cpp_objeto\Aulas_cpp_c\x64\Debug\Aulas_cpp_c.exe

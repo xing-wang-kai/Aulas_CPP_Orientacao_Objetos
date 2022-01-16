@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH></FILEPATH>
+      <FILENAME></FILENAME>
+      <LINE>0</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6800</DEFECTCODE>
+    <DESCRIPTION>O arquivo de conjunto de regras especificado por meio de/analisar: conjunto de regras ou/analise: opção externa: conjunto de regras não pôde ser analisado com êxito e será ignorado.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH></FILEPATH>
+      <FILENAME></FILENAME>
+      <LINE>0</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6800</DEFECTCODE>
+    <DESCRIPTION>O arquivo de conjunto de regras especificado por meio de/analisar: conjunto de regras ou/analise: opção externa: conjunto de regras não pôde ser analisado com êxito e será ignorado.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>K:\Programação\C++\aulas_cpp_objeto\Aulas_cpp_c\</FILEPATH>
+      <FILENAME>var_in_C_.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>A variável 'number' não se altera após a construção, marque-a como const (con.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>K:\Programação\C++\aulas_cpp_objeto\Aulas_cpp_c\</FILEPATH>
+      <FILENAME>var_in_C_.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>A variável 'salary' não se altera após a construção, marque-a como const (con.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>K:\Programação\C++\aulas_cpp_objeto\Aulas_cpp_c\</FILEPATH>
+      <FILENAME>var_in_C_.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>A variável 'superNumber' não se altera após a construção, marque-a como const (con.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>K:\Programação\C++\aulas_cpp_objeto\Aulas_cpp_c\</FILEPATH>
+      <FILENAME>var_in_C_.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expressão 'name': nenhuma matriz para o decaimento do ponteiro (bounds.3).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
