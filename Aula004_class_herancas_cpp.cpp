@@ -42,6 +42,7 @@ class Conta : public Pessoa{
         void Sacar(double valor);
         void Depositar(double valor);
         void showCliente();
+        void transferir(double valor, string conta);
         Conta(string _nome, int _idade, string _cpf, char _sexo, string _id, double _saldo);
 };
 //methos of the mother class Pessoa
@@ -109,6 +110,11 @@ class Conta : public Pessoa{
         void Conta::Depositar(double valor){
             saldo += valor;
         }
+
+        void Conta::transferir(double valor, string Conta){
+            Sacar(valor);
+            Conta -> setSaldo(Conta -> getSaldo() + valor);
+        }
         void Conta::showCliente(){
 
             cout << "NAME: " << getNome() << endl
@@ -133,6 +139,7 @@ int main() {
     Conta Conta01("Joao", 23, "023.333.333-33", 'M', "1234-01", 3000);
     Conta Conta02("valeria", 42, "444.444.444-44", 'F', "1234-02", 5000);
     Conta01.Sacar(400);
+    Conta01.Depositar(500, Conta02);
     Conta01.showCliente();
         cout << endl;
     Conta02.showCliente();
