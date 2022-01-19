@@ -138,10 +138,11 @@ class Conta: public Person{
 
 int main(){
 
+
     Conta Conta01("mathias", 34, 'M', "222.222.222-33", "1234-001", 4300);
     Conta01.Sacar(1800);
     Conta01.Sacar(50000);
-    Conta01.mostraConta();
+    Conta02.mostraConta();
 
     return 0;
 }
