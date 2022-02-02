@@ -1,13 +1,15 @@
 #include <stdio.h>
+//#include <conio.h>
+
 //include <stdlib.h>
 //#include <iostream>
 //#include <math.h>
 //#include <iomanip>
 
-//In this new project is a just test using the C++ and C program leguagem for learning more about this one; 
+//In this new project is a just test using the C++ and C program leguagem for learning more about this one;
 
 /**
-* exemple for C++ 
+* exemple for C++
     cout << endl << "===============================================================" << endl;
     cout << "============THIS A SIMPLE EXAMPLE FOR USING TITLE IN PROJCTS===============" << endl;
     cout << "===============================================================" << endl << endl;
@@ -26,7 +28,7 @@
     puts("\n===============================================================\n");
 
     int main() {
-    
+
     std::echo << " THIS IS MY FIRST PROGRMA USING C++ IN THIS OBJECT ORIENTATION TESTS: << endl;
 
     system("pause");
